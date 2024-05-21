@@ -72,7 +72,7 @@ The code base will create the following component with the required configuratio
         - For this project we will create two different sync groups, one for each branch. Each sync group has one cloud endpoint which refers to the fileshare we have created.
         - Refer [here](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal#create-a-sync-group-and-a-cloud-endpoint) to understand the creation of sync group and cloud endpoint.
           
-      5. **Create a server endpoint**:
+   5. **Create a server endpoint**:
          -  A server endpoint represents a path on a registered server say D:\data where "data" is the folder you have created in the D drive of the server. The files from this folder will be synced to the file share.
          -  A sync group can have multiple server endpoints but in this project we will assign one server to each sync group, which would represent one branch.
          - Refer [here](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal#create-a-server-endpoint) to understand the creation of server endpoint.
